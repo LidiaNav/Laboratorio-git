@@ -35,7 +35,7 @@ La entrega del laboratorio se realizará pegando abajo de está página el enlac
 3. Hacer un commit y un push
 
 - Crea un archivo en la carpeta del repositorio.
-- Añade el archivo al staging. -> _git add . _
+- Añade el archivo al staging. -> _git add ._
 - Crea un commit con un mensaje descriptivo. -> _git commit -m “mensaje”_
 - Sube los cambios al repositorio en GitHub. -> _git push --set-upstream origin master_
 
@@ -48,7 +48,7 @@ La entrega del laboratorio se realizará pegando abajo de está página el enlac
 - Cambia a la nueva rama. -> _git checkout development_
 - Realiza algunos cambios en el archivo que creaste.
 - Añade y haz un commit con los cambios en la rama "development". -> _git add ._ + _git commit -am “cambios en index”_
-- Sube los cambios a Github. -> _git push -u origin nombreRama_
+- Sube los cambios a Github. -> _git push -u origin development_
 
 ![Cambios en index](./content/6-cambios.png)
 ![Crear rama](./content/7-rama.png)
